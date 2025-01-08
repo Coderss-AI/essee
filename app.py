@@ -2,8 +2,8 @@ import streamlit as st
 import pickle
 import pandas as pd
 
-with open('model.pkl', 'rb') as file:
-    model = pickle.load(file)
+#with open('model.pkl', 'rb') as file:
+ #   model = pickle.load(file)
 
 st.title("Heart Disease Predictor")
 
